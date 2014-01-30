@@ -10,12 +10,12 @@ pygments: true
 #
 title : Andrew Reitz Blog
 tagline: Reitz (Pronouced Rights)
-author : Andrew Reitz
+author : 
   name : Andrew Reitz
   email : andrew@andrewreitz.com
   github : pieces029
   twitter : andrewreitz_
-  feedburner : #TODO
+  feedburner : feedburn
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

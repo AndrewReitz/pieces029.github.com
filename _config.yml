@@ -15,7 +15,7 @@ author :
   email : andrew@andrewreitz.com
   github : pieces029
   twitter : andrewreitz_
-  feedburner : #todo?
+  googleplus: +AndrewReitz
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -70,8 +70,8 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  #categories_path : /categories.html
+  #tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 

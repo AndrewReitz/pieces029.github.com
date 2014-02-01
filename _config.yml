@@ -8,14 +8,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Andrew Reitz Blog
+title : andrewreitz.com
 tagline: Reitz (Pronouced Rights)
 author : 
   name : Andrew Reitz
   email : andrew@andrewreitz.com
   github : pieces029
   twitter : andrewreitz_
-  feedburner : feedburn
+  feedburner : #todo?
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

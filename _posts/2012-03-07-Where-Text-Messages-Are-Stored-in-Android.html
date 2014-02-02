@@ -1,0 +1,10 @@
+---
+layout: post
+title: Where Text Messages Are Stored in Android
+date: 2012-03-07 22:31:34 UTC
+updated: 2012-03-07 22:31:34 UTC
+comments: false
+categories: Android
+---
+
+I have been playing around with apps that can send text messages and was wondering why ones sent from my app did not show up in the text message application.  This also got me wondering where are the messages stored and so on.<br /><br />Well I did a quick Google search and couldn't find anything of real use.  So I decided to check my phone.<br /><br />Using adb I got a command line to my phone.<br />(Note you must have a rooted phone to do what's next)<br /><br />I did a quick find to see where messages would be kept.<br /><code>#find . -name "*sms*" -print</code><br /><br />This displayed a good amount of results but the most promising was <br /><code>/data/app/com.android.providers.telephone/databases/mmssms.db</code><br /><br />Knowing that you can open up .db files with sqlite, I used the command<br /><code>sqlite3 /data/app/com.android.providers.telephone/databases/mmssms.db</code><br /><br />After using a few command like .tables and .schema as well as a few queries I was able to conclude that this is where all the text messages are stored from the default message app on android phones.<br /><br />Now, I know there are a few other apps out there that you can install from the marketplace that will leverage this database, specifically Handcent.  I would assume that the way they do it is leveraging the code provided by Google <a href="https://github.com/android/platform_packages_apps_mms">here</a> and tying into this database.<br /><br />Hopefully this will be helpful to anyone else who was curious about this, or thinking about making there own SMS application.

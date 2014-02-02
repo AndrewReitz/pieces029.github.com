@@ -1,0 +1,10 @@
+---
+layout: post
+title: Getting Generic Types in Java
+date: 2014-01-30 01:42:00 UTC
+updated: 2014-01-30 01:42:00 UTC
+comments: false
+categories: 
+---
+
+Due to some crazy inter-process communication, and serialization I needed to do I ended up with an interesting problem. &nbsp;Now I will admit I was probably over complicating things, or doing something I didn't need to do, but I had a lot of fun writing this and learning about the internal workings of the JVM.<br /><div><br /></div><div>The problem, I needed to be able to check if a specific method of Class that implements my interface, if it's signature matches objects that I receive elsewhere. &nbsp;Now I didn't want to just execute this method and throw an exception since it would occur at a later time. &nbsp;I needed to check at the moment I get the parameters so I can give the user (probably more likely the programmer using my library) a reliable and easy to understand error message if it doesn't match.</div><div><br /></div><div>After looking on stack overflow most posts that were looking to do the same thing the responses where you can't. &nbsp;Now I'm not generally one to let things go and if someone says you can't I try to prove them wrong. &nbsp;Well anyways here is some sample code that demonstraits how you can get this. &nbsp;There are some catches and some special cases I actually handled in my code, but this should get the point across. It's by no means elegain and I would recommend you try to find better ways, but if you really need to do this, well here you go.<br /><br /><br /></div><script src="https://gist.github.com/pieces029/8395652.js"></script>

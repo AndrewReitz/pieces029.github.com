@@ -20,7 +20,7 @@ Anyways, long store short, I received a Mac Book Pro Retina, I gave it a whirl. 
 * [**Caffeine**](http://lightheadsw.com/caffeine/)
 * [**KeyRemap4MacBook**](https://pqrs.org/macosx/keyremap4macbook/)
 * [**PCKeyboardHack**](https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en)
-* [WindowFlow](http://most-advantageous.com/windowflow/)
+* [**WindowFlow**](http://most-advantageous.com/windowflow/)
 ------ 
 1. iTerm is a terminal replacement, the terminal that comes with OSX is like something you would expect from an old Linux distro. This terminal is better, oh so much better!
 1. Homebrew is a package manager, it's kinda like yum or app-get, just not as good. It's missing lots of things, and it probably won't stop you from having to (unfortunately) open the App Store, but it will do for getting some of those command line tools that are missing.

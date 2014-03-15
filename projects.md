@@ -7,6 +7,15 @@ group: navigation
 ---
 {% include JB/setup %}
 
+# [Velcro](https://github.com/pieces029/velcro)
+
+Android Bootstrap
+
+# [Encrypted Camera](https://play.google.com/store/apps/details?id=com.andrewreitz.encryptedcamera)
+
+An app that wraps your camera and saves all your photos hidden away from other apps.
+[Source](https://github.com/pieces029/encrypted-camera)
+
 # [Magic Life Counter](https://play.google.com/store/apps/details?id=co.nodeath.magichealthcounter)
 
 A simple app for keeping track of your life total in Magic the Gathering. 

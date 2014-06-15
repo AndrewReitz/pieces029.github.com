@@ -7,6 +7,10 @@ group: navigation
 ---
 {% include JB/setup %}
 
+# [Shillelagh](https://github.com/pieces029/shillelagh)
+
+Sqlite (for Android) made easy
+
 # [Velcro](https://github.com/pieces029/velcro)
 
 Android Bootstrap
@@ -18,12 +22,12 @@ An app that wraps your camera and saves all your photos hidden away from other a
 
 # [Magic Life Counter](https://play.google.com/store/apps/details?id=co.nodeath.magichealthcounter)
 
-A simple app for keeping track of your life total in Magic the Gathering. 
+A simple app for keeping track of your life total in Magic the Gathering.
 [Source](https://github.com/pieces029/MagicLifeCounter)
 
 # [Cat Fact Android App](https://play.google.com/store/apps/details?id=co.nodeath.catfacts)
 
-An Android app I created during the cat facts craze. 
+An Android app I created during the cat facts craze.
 [Source](https://github.com/pieces029/CatFacts)
 
 # [Kitten Ipsum](http://kittenipsum.nodeath.co/)
